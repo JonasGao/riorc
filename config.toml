@@ -110,7 +110,7 @@ blinking-cursor = false
 # decorations = "Enabled"
 [window]
 blur = true
-opacity = 0.5
+opacity = 0.3
 decorations = "Transparent"
 
 # Renderer
