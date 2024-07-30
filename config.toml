@@ -108,6 +108,10 @@ blinking-cursor = false
 # background-opacity = 1.0
 # blur = false
 # decorations = "Enabled"
+[window]
+blur = true
+opacity = 0.5
+decorations = "Transparent"
 
 # Renderer
 #
@@ -183,7 +187,7 @@ blinking-cursor = false
 # style = "italic"
 # weight = 800
 [fonts]
-family = "Hack NFM"
+family = "Agave Nerd Font Mono"
 extras = [{ family = "Microsoft JhengHei" }]
 size = 14
 
