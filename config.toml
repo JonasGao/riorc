@@ -182,6 +182,10 @@ blinking-cursor = false
 # family = "cascadiamono"
 # style = "italic"
 # weight = 800
+[fonts]
+family = "Hack NFM"
+extras = [{ family = "Microsoft JhengHei" }]
+size = 14
 
 # Scroll
 #
@@ -244,9 +248,9 @@ blinking-cursor = false
 #
 # Example 3 for Windows using powershell with login
 #
-# [shell]
-# program = "pwsh"
-# args = ["-l"]
+[shell]
+program = "pwsh"
+args = ["-l"]
 #
 # Example 4 for MacOS with tmux installed by homebrew
 #
